@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>mgregory.me</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="apple-mobile-web-app-title" content="mgregory.me">
+  <!--[if IE]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5-history-api/4.2.4/history.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class = "container main">
+    <header></header>
+    <router></router>
+    <div class="footer text-center">
+      <hr>
+      <p class="text-muted">Mike Gregory, 2016.</p>
+    </div>
+  </div>
+  <image-viewer></image-viewer>
+  <!-- Preload the background images -->
+  <img src="/img/banner/mgregory.jpg" style="display:none">
+  <img src="/img/banner/contact.jpg" style="display:none">
+  <img src="/img/banner/projects.jpg" style="display:none">
+
+  <link rel="stylesheet" type="text/css" href="/lib/global.css">
+  <!-- riot tags -->
+  <script type="riot/tag" src="/tags/router.tag"></script>
+  <script type="riot/tag" src="/tags/header.tag"></script>
+  <script type="riot/tag" src="/tags/homepage.tag"></script>
+  <script type="riot/tag" src="/tags/error-404.tag"></script>
+  <script type="riot/tag" src="/tags/projects.tag"></script>
+  <script type="riot/tag" src="/tags/image-viewer.tag"></script>
+  <script type="riot/tag" src="/tags/contact.tag"></script>
+
+
+  <!-- RIOT JS & Compiler -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/2.6.2/riot+compiler.min.js"></script>
+  <!-- External stores -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src=https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <script>
+    riot.compile(function() {
+      riot.route.base('/');
+      riot.mount('*');
+      riot.route.start(true);
+    });
+  </script>
+</body>
+
+</html>

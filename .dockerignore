@@ -1,0 +1,12 @@
+Dockerfile
+.dockerignore
+.git
+*~
+*#
+.DS_STORE
+.netbeans
+.gitignore
+nbproject
+.idea
+.node_history
+scripts
