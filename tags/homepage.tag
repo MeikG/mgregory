@@ -24,42 +24,46 @@
         If you would like to see some of my projects, <a href="/projects">you can access them here</a>, and my github can be viewed at <a href="https://github.com/meikg">https://github.com/meikg</a><br>
         <a href="/contact">Contact Information</a>
       </p>
-      <div class="row">
-        <h3>Software & Skills</h3>
-        <div class="col-md-4">
-          <ul>
-            <h4><b>Familiar</b></h4>
-            <li>Apache.</li>
-            <li>HTML & CSS.</li>
-            <li>MySQL.</li>
-            <li>Fundamentals of web security (mitigating XSS, SQL injections, CSRF).</li>
-            <li>Bootstrap Framework.</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <ul>
-            <h4><b>Good Knowledge</b></h4>
-            <li>PHP and JavaScript.</li>
-            <li>Linux server admin.</li>
-            <li>Bash & Batch scripting.</li>
-            <li>Git & SVN source control.</li>
-            <li>LAMP Stack.</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <ul>
-            <h4><b>Proficient</b></h4>
-            <li>Adobe Photoshop & Illustrator.</li>
-            <li>Windows, Linux and Mac OS X.</li>
-            <li>Mac server admin.</li>
-            <li>Docker & Rancher.</li>
-            <li>PDQ Deploy & Inventory.</li>
-          </ul>
-        </div>
-      </div>
     </div>
     <div class="col-sm-3 col-sm-pull-9 col-md-3 col-md-pull-9">
       <img class="avatar" src="/img/mgregory.png" width="100%">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Software & Skills</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4 col-md-4">
+      <ul>
+        <h4><b>Familiar</b></h4>
+        <li>Apache.</li>
+        <li>HTML & CSS.</li>
+        <li>MySQL.</li>
+        <li>Fundamentals of web security (mitigating XSS, SQL injections, CSRF).</li>
+        <li>Bootstrap Framework.</li>
+      </ul>
+    </div>
+    <div class="col-sm-4 col-md-4">
+      <ul>
+        <h4><b>Good Knowledge</b></h4>
+        <li>PHP and JavaScript.</li>
+        <li>Linux server admin.</li>
+        <li>Bash & Batch scripting.</li>
+        <li>Git & SVN source control.</li>
+        <li>LAMP Stack.</li>
+      </ul>
+    </div>
+    <div class="col-sm-4 col-md-4">
+      <ul>
+        <h4><b>Proficient</b></h4>
+        <li>Adobe Photoshop & Illustrator.</li>
+        <li>Windows, Linux and Mac OS X.</li>
+        <li>Mac server admin.</li>
+        <li>Docker & Rancher.</li>
+        <li>PDQ Deploy & Inventory.</li>
+      </ul>
     </div>
   </div>
   <h4 class="cv-header">View my CV below or download <a href="/img/cv/CV.pdf" target="_blank">here</a>.</h4>
